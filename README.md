@@ -6,6 +6,7 @@ This is a Kaggle competition I worked on to practice detecting time-series anoma
 Some of the key features of solution are summarized below:
 
 1. Creating a Prophet-based time series forecast to improve anomaly detection
+
 By creating a forecasted meter reading and comparing it to the actual meter reading allows for the creation of a residual value between predicted and actual readings, and using this I created a residual z-score for each meter reading for each building which was the second most important feature in predicting anomalous values
 
 2. Adding temporal features
